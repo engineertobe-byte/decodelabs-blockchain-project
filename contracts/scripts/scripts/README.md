@@ -2,7 +2,7 @@
 
 A blockchain-based decentralized voting system developed as part of **Blockchain Technology Project 2** at **DecodeLabs**.
 
-**Author:** [Your Name]  
+**Author:** El Hourri Boutaina  
 **Institution:** ENSA Khouribga  
 **Company:** DecodeLabs  
 **Date:** July 2026
