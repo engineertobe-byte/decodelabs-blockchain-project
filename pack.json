@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-voting-dapp",
+  "version": "1.0.0",
+  "description": "Decentralized voting system built with Solidity and Hardhat - Blockchain Technology Project 2",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:local": "npx hardhat run scripts/deploy.js",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "vote:local": "npx hardhat run scripts/vote.js",
+    "vote:sepolia": "npx hardhat run scripts/vote.js --network sepolia",
+    "verify": "npx hardhat verify --network sepolia"
+  },
+  "keywords": ["blockchain", "ethereum", "solidity", "voting", "hardhat"],
+  "author": "Your Name - ENSA Khouribga / DecodeLabs",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "ethers": "^6.9.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
